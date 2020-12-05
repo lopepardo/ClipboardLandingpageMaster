@@ -1,0 +1,21 @@
+.clipboard {
+  padding-bottom: 8rem;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    margin-bottom: 2.5rem;
+  }
+
+  &__btn {
+    @include media(0, $max-sm) {
+      margin-bottom: 1.5rem;
+    }
+    @include media($min-md) {
+      display: inline-block;
+    }
+  }
+}

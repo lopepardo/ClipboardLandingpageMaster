@@ -1,0 +1,58 @@
+.track {
+  padding-bottom: 9rem;
+  text-align: center;
+
+  @include media($min-lg) {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 300px) 1fr;
+    align-items: center;
+  }
+
+  &__content {
+    @include media($min-md) {
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    @include media($min-lg) {
+      grid-column: 2 / span 2;
+    }
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    margin-bottom: 4rem;
+  }
+
+  &__img {
+    @include media(0, $max-md) {
+      margin-bottom: 3rem;
+    }
+    @include media($min-lg) {
+      grid-column: 1 / span 2;
+      width: 100%;
+      transform: scale(1.05);
+      transform-origin: right;
+    }
+  }
+
+  &__description-content {
+    @include media($min-lg) {
+      grid-column: 3 / span 2;
+      margin-left: 5rem;
+      text-align: left;
+      width: 350px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 3rem;
+  }
+
+  &__description-title {
+    margin-bottom: 0.5rem;
+  }
+}

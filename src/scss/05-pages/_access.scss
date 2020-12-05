@@ -1,0 +1,19 @@
+.access {
+  padding-bottom: 6rem;
+  text-align: center;
+
+  @include media($min-md) {
+    &__content {
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    margin-bottom: 5rem;
+  }
+}

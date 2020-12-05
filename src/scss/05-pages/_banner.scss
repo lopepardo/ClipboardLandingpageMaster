@@ -1,0 +1,26 @@
+.banner {
+  padding-top: 7rem;
+  padding-bottom: 9rem;
+  text-align: center;
+
+  &__img {
+    margin-bottom: 4rem;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    margin-bottom: 3rem;
+  }
+
+  &__btn {
+    @include media(0, $max-sm) {
+      margin-bottom: 1.5rem;
+    }
+    @include media($min-md) {
+      display: inline-block;
+    }
+  }
+}

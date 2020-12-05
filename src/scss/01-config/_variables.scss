@@ -1,0 +1,37 @@
+/* Colors */
+$strong-cyan: hsl(171, 66%, 44%);
+$light-blue: hsl(233, 100%, 69%);
+
+$dark-grayish-blue: hsl(210, 10%, 33%);
+$grayish-blue: hsl(201, 11%, 66%);
+
+/* Layout */
+
+/* Fonts */
+$h1-font-size: 2rem;
+$h2-font-size: 1.6rem;
+$h3-font-size: 1.4rem;
+$p-font-size: 1rem;
+$a-font-size: 1rem;
+$line-height: 1.8rem;
+
+/* z-index */
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+/* Breakpoints */
+$sm: 420px;
+
+$min-sm: 421px;
+$max-sm: 767px;
+
+$min-md: 768px;
+$max-md: 1023px;
+
+$min-lg: 1024px;
+$max-lg: 1365px;
+
+$hg: 1366px;

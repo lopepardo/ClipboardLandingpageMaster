@@ -1,0 +1,14 @@
+.sponsors {
+  padding-bottom: 8rem;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__logo {
+    margin: 3rem 2rem;
+    width: 8.5rem;
+  }
+}

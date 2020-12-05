@@ -1,0 +1,34 @@
+body {
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: $dark-grayish-blue;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+p {
+  font-size: $p-font-size;
+  color: $grayish-blue;
+  font-weight: 400;
+  line-height: $line-height;
+}
+
+a {
+  font-size: $a-font-size;
+}
